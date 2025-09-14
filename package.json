@@ -1,0 +1,61 @@
+{
+  "name": "passport-jose",
+  "version": "0.3.0",
+  "description": "Passport strategy for authenticating with JWTs using the JOSE library",
+  "author": "asyne",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "prepublishOnly": "rm -rf dist && npm run build"
+  },
+  "files": [
+    "dist/",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "jose": "^6",
+    "passport-strategy": "^1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.14",
+    "@types/passport-strategy": "^0.2.38",
+    "@vitest/coverage-v8": "^3.2.4",
+    "typescript": "^5.9.2",
+    "vitest": "^3.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asyne/passport-jose.git"
+  },
+  "keywords": [
+    "jwt",
+    "passport",
+    "strategy",
+    "json",
+    "web",
+    "token",
+    "jose",
+    "bearer",
+    "authentication",
+    "express",
+    "nestjs",
+    "koa",
+    "eddsa",
+    "es256",
+    "rs256",
+    "hs256"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asyne/passport-jose/issues"
+  },
+  "homepage": "https://github.com/asyne/passport-jose",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "packageManager": "yarn@4.9.4"
+}
