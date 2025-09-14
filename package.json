@@ -1,7 +1,7 @@
 {
   "name": "passport-jose",
-  "version": "0.3.1",
-  "description": "Passport strategy for authenticating with JWTs using the JOSE library",
+  "version": "0.3.2",
+  "description": "Passport JWT strategy with EdDSA, ES256 and modern cryptographic algorithm support via JOSE",
   "author": "asyne",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -17,8 +17,8 @@
     "LICENSE"
   ],
   "dependencies": {
-    "jose": "^6",
-    "passport-strategy": "^1"
+    "jose": "^6.1.0",
+    "passport-strategy": "^1.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.19.14",

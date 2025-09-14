@@ -1282,7 +1282,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jose@npm:^6":
+"jose@npm:^6.1.0":
   version: 6.1.0
   resolution: "jose@npm:6.1.0"
   checksum: 10c0/f4518579e907317e144facd15c7627acd06097bbea17735097437217498aa419564c039dd4020f6af5f2d024a7cee6b7be4648ccbbdc238aedb80a47c061217d
@@ -1527,14 +1527,14 @@ __metadata:
     "@types/node": "npm:^20.19.14"
     "@types/passport-strategy": "npm:^0.2.38"
     "@vitest/coverage-v8": "npm:^3.2.4"
-    jose: "npm:^6"
-    passport-strategy: "npm:^1"
+    jose: "npm:^6.1.0"
+    passport-strategy: "npm:^1.0.0"
     typescript: "npm:^5.9.2"
     vitest: "npm:^3.2.4"
   languageName: unknown
   linkType: soft
 
-"passport-strategy@npm:^1":
+"passport-strategy@npm:^1.0.0":
   version: 1.0.0
   resolution: "passport-strategy@npm:1.0.0"
   checksum: 10c0/cf4cd32e1bf2538a239651581292fbb91ccc83973cde47089f00d2014c24bed63d3e65af21da8ddef649a8896e089eb9c3ac9ca639f36c797654ae9ee4ed65e1
