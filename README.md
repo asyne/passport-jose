@@ -9,7 +9,7 @@
 
 A modern, security-focused [Passport](http://passportjs.org/) strategy for authenticating with [JSON Web Tokens](https://jwt.io) using the [jose](https://github.com/panva/jose) library.
 
-This package is a complete TypeScript rewrite focused on Bearer token authentication with enhanced security through the modern `jose` library. It's designed to secure API endpoints without sessions.
+**Motivation**: This library was created to bring support for modern JWT algorithms like **EdDSA** (Ed25519/Ed448), **ES256**, and other contemporary cryptographic standards to Passport JWT middleware. Built from the ground up in TypeScript, it focuses on Bearer token authentication with enhanced security through the modern `jose` library, designed to secure sessionless API endpoints. While the original `passport-jwt` remains excellent for traditional use cases, `passport-jose` leverages cutting-edge algorithms and security features that weren't available in legacy JWT libraries.
 
 ## Table of Contents
 
