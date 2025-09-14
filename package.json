@@ -1,6 +1,6 @@
 {
   "name": "passport-jose",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Passport strategy for authenticating with JWTs using the JOSE library",
   "author": "asyne",
   "main": "./dist/index.js",
