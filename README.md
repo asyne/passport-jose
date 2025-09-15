@@ -1,6 +1,6 @@
 # passport-jose
 
-[![npm version](https://badge.fury.io/js/passport-jose.svg)](https://www.npmjs.com/package/passport-jose)
+[![npm version](https://img.shields.io/npm/v/passport-jose)](https://www.npmjs.com/package/passport-jose)
 [![Node.js CI](https://github.com/asyne/passport-jose/actions/workflows/ci.yml/badge.svg)](https://github.com/asyne/passport-jose/actions/workflows/ci.yml)
 [![codecov](https://codecov.io/gh/asyne/passport-jose/graph/badge.svg)](https://codecov.io/gh/asyne/passport-jose)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0+-blue.svg)](https://www.typescriptlang.org/)
@@ -9,7 +9,9 @@
 
 A modern, security-focused [Passport](http://passportjs.org/) strategy for authenticating with [JSON Web Tokens](https://jwt.io) using the [jose](https://github.com/panva/jose) library.
 
-**Motivation**: This library was created to bring support for modern JWT algorithms like **EdDSA** (Ed25519/Ed448), **ES256**, and other contemporary cryptographic standards to Passport JWT middleware. Built from the ground up in TypeScript, it focuses on Bearer token authentication with enhanced security through the modern `jose` library, designed to secure sessionless API endpoints. While the original `passport-jwt` remains excellent for traditional use cases, `passport-jose` leverages cutting-edge algorithms and security features that weren't available in legacy JWT libraries.
+**Motivation**: This library was created to bring support for modern JWT algorithms like **EdDSA** (Ed25519/Ed448), **ES256**, and other contemporary cryptographic standards to Passport JWT middleware. Built from the ground up in TypeScript, it focuses on Bearer token authentication with enhanced security through the modern `jose` library, designed to secure sessionless API endpoints.
+
+While the original `passport-jwt` remains excellent for traditional use cases, `passport-jose` leverages cutting-edge algorithms and security features that weren't available in legacy JWT libraries.
 
 ## Table of Contents
 
@@ -827,13 +829,6 @@ yarn test:coverage
 
 - Node.js 20+ (minimum required version)
 - TypeScript 5.0+ for development
-
-### Performance Characteristics
-
-- **JWT Verification**: ~10-50μs per token (varies by algorithm and key type)
-- **JWKS Caching**: Configurable cache reduces remote key fetches
-- **Memory Usage**: Minimal overhead with efficient key caching
-- **Bundle Size**: ~150KB total (including dependencies)
 
 ### Compatibility
 
